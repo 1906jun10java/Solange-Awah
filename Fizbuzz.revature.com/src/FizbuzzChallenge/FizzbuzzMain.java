@@ -1,41 +1,40 @@
 package FizbuzzChallenge;
 
+import java.util.Scanner;
+ 
+ 
 public class FizzbuzzMain {
-	public static void main(String[]args) {
-	 
 	
-int min= 1;
-int max = 100;
-int x = 5;
-int y = 3;
+	int[] numbers;
+	String[] terms;
+	
+	int i;
+	int j;
+	
+	
 
+	
+	Scanner sc = new Scanner(System.in);
+	//method body
+	public static void main(String[]args) {
+		FizzBuzz fb = new FizzBuzz();
+		fb.fizzBuzzBasic();
+	}
+		
+		//new object
+		
+		public void userdata() {
+			
+	
+			
+			System.out.println("please enter a min num");
+			int i = sc.nextInt();
+			System.out.println("please enter a max num");
+			int j = sc.nextInt();
+			
+	}
 
-
-for(int i = min; i <= max; i++) {
-	  if (1%(x*y)==0) {
-		  
-		  System.out.println("FizzBuzz");
-	  }
-	  
-	  else if(x%y==0) {
-		  
-		  System.out.println ("Buzz");
-	  }  
-			  
-		   else if (i%y==0) {
-			  System.out.println("Fizz");
-			  
-		  }else {
-			  System.out.println(i);
-		  
-		  }
-		  
-	  
-}
-
-}
-
-}
+}        
 		
 		
 		

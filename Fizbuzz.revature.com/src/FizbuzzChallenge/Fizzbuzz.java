@@ -1,60 +1,36 @@
 package FizbuzzChallenge;
 
-
-
-public class Fizzbuzz {
-    
-	public static void count() {
+public class FizzBuzz {
 	
-	for( int i= 1; i<=100; i++) {
+	
+	//method
+	public void fizzBuzzBasic() {
 		
-		if ((i*3==0)&&(i*5==0)) {
-			System.out.println("Fizzbuzz");
-		} else if (i*3==0) {
-			System.out.println("Fizz");
-		}else if (i*5==0) {
-		     System.out.println("Buzz");
-	     }else {
+		for( int i= 1; i<=100; i++) {
 			
-			System.out.println(i);
-	     }
-	}
-		
-		
-		
-	}
-	
-
-	
-	
-	public static void main(String[] args) {
-		
-	}
-	}
+			if ((i%3==0)&&(i%5==0)) {
+				System.out.println("Fizzbuzz");
+			} else if (i%3==0) {
+				System.out.println("Fizz");
+			}else if (i%5==0) {
+			     System.out.println("Buzz");
+		     }else {
 				
-    	   
-    	   
-
+				System.out.println(i);
+		     }
+		}		
+	}
+	
+	//create a method
+	public void fizzBuzzAdvanced(int m, int n, int[] numbers, String[] terms){
+		 
 		
-    	   
-    	   
-    	   
-    	   
-
-  
-       
-         
+		 
+	 }
+	 
+	 
 	
-
 	
-        
-
-
-
-
-
-
-
-         
-         
-         
+	
+	
+}
